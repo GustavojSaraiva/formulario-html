@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <style>
+    div {  
+      background-color: white;
+  width: 300px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;
+    }
+ </style>
+
+</head>
+<body>
+  <div class="div2">
+    <form>
+        <label for="nome">nome:</label>
+         <input type="text" id="nome" name="nome">
+         <br>
+
+        <label for="data">data de nacimento:</label>
+         <input type="date" id="data" name="data">
+         <br>
+
+         <label for="sexo">sexo</label>
+        <input type="radio" id="sexm" name="fav_language" value="sexm">
+         <label for="sexm">masculino</label>
+        <input type="radio" id="sexf" name="fav_language" value="sexf">
+          <label for="sexf">feminino</label>,<br>
+
+          <label for="endereço">Endereço:</label><br>
+
+          <label for="logradouro">logradouro:</label>
+         <input type="text" id="logradouro" name="logradouro"><br>
+
+         <label for="bairro">bairro:</label>
+         <input type="text" id="bairro" name="bairro"><br>
+
+         <label for="cidade">cidade:</label>
+         <input type="text" id="cidade" name="cidade"><br>
+
+         <label for="uf">UF:</label>
+         <select id="uf" name="uf">
+           <option value="sp">SP</option>
+           <option value="df">DF</option>
+           <option value="rn">RN</option>
+           <option value="mg">MG</option>
+          </select><br>
+
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email">
+          <br>
+         <input type="submit">
+         <button type="reset" onclick="alert('Hello World!')">limpa</button>
+    </form>
+</div>
+<a href="index.html">Index</a>
+</body>
+</html>
